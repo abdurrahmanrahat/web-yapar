@@ -21,8 +21,9 @@
   <body>
     <!-- upload image from user using input file field -->
     <section>
-      <h2 class="my-5 text-center fs-1 fw-bold">Upload Your Image</h2>
-      <div class="text-center">
+      <h2 class="mt-5 text-center fs-1 fw-bold">Upload Your Image</h2>
+      <hr />
+      <div class="text-center mt-4">
         <label for="input-file">Upload</label>
         <input
           type="file"
@@ -30,11 +31,22 @@
           id="input-file"
         />
       </div>
+      <div class="text-center mt-4">
+        <img src="" id="profile-img-empty" alt="" />
+      </div>
     </section>
 
     <!-- show image after upload the img -->
     <section class="my-5 text-center">
-      <img src="" id="profile-img" alt="" />
+      <div class="image-div">
+        <img src="./asserts/parallax.jpg" id="profile-img" alt="" />
+      </div>
+
+      <div class="d-flex justify-content-center my-5">
+        <button id="cropped-img-btn">Cropped</button>
+      </div>
+
+      <img src="" id="cropped-output-img" alt="" />
     </section>
 
     <!-- bootstrap js -->

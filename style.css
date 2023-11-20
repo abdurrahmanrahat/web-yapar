@@ -1,4 +1,5 @@
-label{
+label,
+#cropped-img-btn {
     display: block;
     background-color: black;
     color: white;
@@ -7,16 +8,27 @@ label{
     cursor: pointer;
 }
 
-input{
+input {
     display: none;
 }
 
-#profile-img{
+#profile-img,
+#profile-img-empty {
     width: 500px;
 }
 
+.image-div{
+    margin: 0 180px;
+}
+
 @media (max-width: 576px) {
-    #profile-img{
+
+    #profile-img,
+    #profile-img-empty {
         width: 300px;
+    }
+
+    .image-div{
+        margin: 0 40px;
     }
 }
