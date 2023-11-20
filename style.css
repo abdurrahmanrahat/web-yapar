@@ -10,3 +10,13 @@ label{
 input{
     display: none;
 }
+
+#profile-img{
+    width: 500px;
+}
+
+@media (max-width: 576px) {
+    #profile-img{
+        width: 300px;
+    }
+}
