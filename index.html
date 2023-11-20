@@ -16,7 +16,15 @@
   <body>
     <!-- upload image from user using input file field -->
     <section>
-        <h2 class="my-5 text-center fs-1 fw-bold">Upload Your Image</h2>
+      <h2 class="my-5 text-center fs-1 fw-bold">Upload Your Image</h2>
+      <div class="text-center">
+        <label for="input-file">Upload</label>
+        <input
+          type="file"
+          accept="image/jpeg, image/jpg, image/png"
+          id="input-file"
+        />
+      </div>
     </section>
 
     <!-- show image after upload the img -->
@@ -28,5 +36,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="/script.js"></script>
   </body>
 </html>
